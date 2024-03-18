@@ -4,6 +4,7 @@ import './App.css';
 import Greet from "./components/greet"
 import Hello from "./components/hello"
 import Message from "./components/message"
+import HookCounter from './components/HookCounter';
 
 class App extends Component {
   render() {
@@ -13,7 +14,8 @@ class App extends Component {
         {/* <Greet name="User" heroName="Superman"/> */}
         {/* <Greet name="Name" heroName="Flash"/> */}
         {/* <Hello/> */}
-        <Message />
+        {/* <Message /> */}
+        <HookCounter/>
       </div>
     )
   }
