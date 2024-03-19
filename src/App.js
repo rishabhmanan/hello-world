@@ -5,6 +5,8 @@ import Greet from "./components/greet"
 import Hello from "./components/hello"
 import Message from "./components/message"
 import HookCounter from './components/HookCounter';
+import HookCounterTwo from './components/HookCounterTwo';
+import HookCounterThree from './components/HookCounterThree';
 
 class App extends Component {
   render() {
@@ -15,7 +17,7 @@ class App extends Component {
         {/* <Greet name="Name" heroName="Flash"/> */}
         {/* <Hello/> */}
         {/* <Message /> */}
-        <HookCounter/>
+        <HookCounterThree/>
       </div>
     )
   }
